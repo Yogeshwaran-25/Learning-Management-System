@@ -48,7 +48,7 @@ lms-project/
 1.	Clone the repo
    
    Run the following commands in your terminal:
-   git clone https://github.com/your-username/lms-project.git
+   git clone https://github.com/Yogeshwaran-25/Learning-Management-System
    cd lms-project
  
 2.	Install dependencies
