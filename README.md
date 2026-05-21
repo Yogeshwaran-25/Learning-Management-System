@@ -43,32 +43,31 @@ lms-project/
 └── .env # Environment config
 
 ---
+🚀 Getting Started
 
-## 🚀 Getting Started
+1.	Clone the repo
+   
+   Run the following commands in your terminal:
+   git clone https://github.com/your-username/lms-project.git
+   cd lms-project
+ 
+2.	Install dependencies
 
-1. Clone the repo:
-```bash
-git clone https://github.com/your-username/lms-project.git
-cd lms-project
-Install dependencies:
-
-bash
-Copy
-Edit
+  	Install all required Node.js packages:
 npm install
-Setup environment variables:
-Create a .env file:
+ 
+4.	Setup environment variables
 
-ini
-Copy
-Edit
+    Create a .env file in the root of your project:
 PORT=3000
-MONGO_URI=mongodb://localhost:27017/lms
+     MONGO_URI=mongodb://localhost:27017/lms
 JWT_SECRET=your_secret_key
-Start the server:
+ 
+4.	Start the server
 
-bash
-Copy
-Edit
+  	Launch the development server with:
+npm start
+ 
+✅  Your LMS server will be running at http://localhost:3000
 node server.js
 Then open: http://localhost:3000
